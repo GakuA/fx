@@ -4,4 +4,4 @@ $(function(){
 		$("#usdjpy .price").text(count++);
 	}
 	setInterval(test, 1000);
-}
+});
