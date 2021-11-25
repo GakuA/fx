@@ -3,11 +3,11 @@ $(function(){
 	function test() {
 		$("#usdjpy .price").text(count++);
 	}
-	setInterval(getPrice, 1000);
+	setInterval(
 
 	getPrice(url).done(function(result) {
 		$("#usdjpy .price").text(result);
-	}
+	}), 1000);
 
 	function getPrice() {
 		return $.ajax({
