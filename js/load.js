@@ -1,10 +1,14 @@
 $(function(){
-	
+
 	setInterval(displayPrice, 1000);
 
 	function displayPrice() {
 		getPrice().done(function(result) {
-			$("#usdjpy .price").text(result);
+			var prices = JSON.parse(result);
+			$("#usdjpy .price").text(prices.usd);
+			$("#eurjpy .price").text(prices.eur);
+			$("#audjpy .price").text(prices.aud);
+			$("#gbpjpy .price").text(prices.gbp);
 		});
 	}
 
