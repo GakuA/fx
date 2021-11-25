@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<title>FX計算!</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="js/load.js"></script>
 	</head>
 	<body>
 		<div id="usdjpy">
