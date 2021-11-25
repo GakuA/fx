@@ -7,7 +7,7 @@
 	<body>
 		<div id="usdjpy">
 			<div class="title">USD/JPY</div>
-			<div class="price">100.11</div>
+			<div class="price">111.11</div>
 		</div>
 		<div id="eurjpy">
 			<div class="title">EUR/JPY</div>
