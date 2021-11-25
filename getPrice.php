@@ -9,6 +9,8 @@
 		}
 	}
 	echo $price;
+	echo "test";
+	echo "???";
 
 function price() {
 	if(preg_match("/<span id\=\"USDJPY_chart_bid\"[^>]*\>(.*?)\<\/span\>/i", "https://info.finance.yahoo.co.jp/fx/list/", $matches)){
