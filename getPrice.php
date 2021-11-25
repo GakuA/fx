@@ -1,13 +1,6 @@
 <?php
 
-	$count = 1;
-	while ($count <= 3) {
-		$count++;
-		$price = price();
-		if ($price) {
-			break;
-		}
-	}
+	$price = price();
 	echo $price;
 
 	function price() {
